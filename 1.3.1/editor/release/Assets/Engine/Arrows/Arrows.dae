@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Behnam</author>
+      <authoring_tool>OpenCOLLADA2009 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=1;
+			exportCameras=1;exportJointsAndSkin=1;exportAnimations=1;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///C:/Users/Behnam/Documents/maya/projects/default/scenes/peikan.mb</source_data>
+    </contributor>
+    <created>2012-05-04T17:08:10</created>
+    <modified>2012-05-04T17:08:10</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="Y_blin" name="Y_blin">
+      <instance_effect url="#Y_blin-fx"/>
+    </material>
+    <material id="Z_blin" name="Z_blin">
+      <instance_effect url="#Z_blin-fx"/>
+    </material>
+    <material id="X_blin" name="X_blin">
+      <instance_effect url="#X_blin-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="X_blin-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0.5 0.0 0.0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0.0 0.0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0 0.0 0.0 1</color>
+            </diffuse>
+            <specular>
+              <color>0.0 0.0 0.0 1</color>
+            </specular>
+            <shininess>
+              <float>0.0</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Y_blin-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0.5 0.0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0.0 0.0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0 0.0 0.0 1</color>
+            </diffuse>
+            <specular>
+              <color>0.0 0.0 0.0 1</color>
+            </specular>
+            <shininess>
+              <float>0.0</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Z_blin-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0.0 0.5 1</color>
+            </emission>
+            <ambient>
+              <color>0.0 0 0.0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0 0.0 0.0 1</color>
+            </diffuse>
+            <specular>
+              <color>0.0 0.0 0.0 1</color>
+            </specular>
+            <shininess>
+              <float>0.0</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="YAxis" name="YAxis">
+      <mesh>
+        <source id="YAXISShape-positions" name="YAXISShape-positions">
+          <float_array id="YAXISShape-positions-array" count="99">0.01382451 0 -0.0100444 0.005280385 0 -0.01625143 -0.005280385 0 -0.01625143 -0.01382453 0 -0.0100444 -0.01708813 0 0 -0.01382452 0 0.01004403 -0.005280385 0 0.01625154 0.005280385 0 0.01625154 0.01382451 0 0.01004403 0.01708812 0 0 0.01382451 0.8689458 -0.0100444 0.005280385 0.8689458 -0.01625143 -0.005280385 0.8689458 -0.01625143 -0.01382453 0.8689458 -0.0100444 -0.01708813 0.8689458 0 -0.01382452 0.8689458 0.01004403 -0.005280385 0.8689458 0.01625154 0.005280385 0.8689458 0.01625154 0.01382451 0.8689458 0.01004403 0.01708812 0.8689458 0 0 0 0 0 0.8689458 0 0.05464733 0.8541889 -0.03970362 0.0208734 0.8541889 -0.0642418 -0.02087343 0.8541889 -0.06424178 -0.05464733 0.8541889 -0.03970362 -0.06754779 0.8541889 0 -0.05464733 0.8541889 0.03970361 -0.02087343 0.8541889 0.0642418 0.02087343 0.8541889 0.0642418 0.05464733 0.8541889 0.03970361 0.0675478 0.8541889 0 0 1.000049 0</float_array>
+          <technique_common>
+            <accessor source="#YAXISShape-positions-array" count="33" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="YAXISShape-normals" name="YAXISShape-normals">
+          <float_array id="YAXISShape-normals-array" count="189">0.8090028 0 -0.5878047 0.3089936 0 -0.9510641 0.3089936 0 -0.9510641 0.8090028 0 -0.5878047 -0.3089931 0 -0.9510642 -0.3089931 0 -0.9510642 -0.8090029 0 -0.5878047 -0.8090029 0 -0.5878047 -1 0 0 -1 0 0 -0.8090106 0 0.5877941 -0.8090106 0 0.5877941 -0.3090113 0 0.9510584 -0.3090113 0 0.9510584 0.3090114 0 0.9510583 0.3090114 0 0.9510583 0.8090107 0 0.587794 0.8090107 0 0.587794 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.7341177 0.420226 -0.5333678 0.2804076 0.4202259 -0.8630074 0 1 0 -0.280408 0.4202257 -0.8630074 -0.7341176 0.4202259 -0.5333681 -0.9074194 0.4202259 0 -0.7341177 0.4202259 0.5333679 -0.2804079 0.4202258 0.8630072 0.2804079 0.4202258 0.8630072 0.7341177 0.4202259 0.5333679 0.9074194 0.420226 0</float_array>
+          <technique_common>
+            <accessor source="#YAXISShape-normals-array" count="63" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="YAXISShape-map1" name="YAXISShape-map1">
+          <float_array id="YAXISShape-map1-array" count="66">0.7962313 0.3232556 0.8169072 0.3232556 0.8169072 0.8533558 0.7962313 0.8533558 0.8169072 0.3232556 0.8169072 0.8533558 0.7962313 0.3232556 0.7962313 0.8533558 0.7627726 0.3232556 0.7627726 0.8533558 0.7293152 0.3232556 0.7293152 0.8533558 0.7086375 0.3232556 0.7086375 0.8533558 0.7086375 0.3232556 0.7086375 0.8533558 0.7293152 0.3232556 0.7293152 0.8533558 0.7627726 0.3232556 0.7627726 0.8533558 0.7627726 0.3232556 0.7627726 0.8533558 0.8950281 0.8443532 0.7627726 0.8443532 0.6305168 0.8443532 0.5487784 0.8443532 0.5487784 0.8443532 0.6305168 0.8443532 0.7627726 0.8443532 0.8950281 0.8443532 0.9767666 0.8443532 0.9767666 0.8443532 0.7627726 0.9333352</float_array>
+          <technique_common>
+            <accessor source="#YAXISShape-map1-array" count="33" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="YAXISShape-vertices" name="YAXISShape-vertices">
+          <input semantic="POSITION" source="#YAXISShape-positions"/>
+        </vertices>
+        <triangles material="YAxis" count="58">
+          <input semantic="VERTEX" source="#YAXISShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#YAXISShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#YAXISShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 10 3 3 10 3 3 1 1 1 11 2 2 1 1 1 2 4 4 11 2 2 11 2 2 2 4 4 12 5 5 2 4 4 3 6 6 12 5 5 12 5 5 3 6 6 13 7 7 3 6 6 4 8 8 13 7 7 13 7 7 4 8 8 14 9 9 4 8 8 5 10 10 14 9 9 14 9 9 5 10 10 15 11 11 5 10 10 6 12 12 15 11 11 15 11 11 6 12 12 16 13 13 6 12 12 7 14 14 16 13 13 16 13 13 7 14 14 17 15 15 7 14 14 8 16 16 17 15 15 17 15 15 8 16 16 18 17 17 8 16 16 9 18 18 18 17 17 18 17 17 9 18 18 19 19 19 9 18 18 0 0 0 19 19 19 19 19 19 0 0 0 10 3 3 1 20 1 0 21 0 20 22 20 2 23 4 1 20 1 20 22 20 3 24 6 2 23 4 20 22 20 4 25 8 3 24 6 20 22 20 5 26 10 4 25 8 20 22 20 6 27 12 5 26 10 20 22 20 7 28 14 6 27 12 20 22 20 8 29 16 7 28 14 20 22 20 9 30 18 8 29 16 20 22 20 0 21 0 9 30 18 20 22 20 10 31 3 11 32 2 21 33 21 11 32 2 12 34 5 21 33 21 12 34 5 13 35 7 21 33 21 13 35 7 14 36 9 21 33 21 14 36 9 15 37 11 21 33 21 15 37 11 16 38 13 21 33 21 16 38 13 17 39 15 21 33 21 17 39 15 18 40 17 21 33 21 18 40 17 19 41 19 21 33 21 19 41 19 10 31 3 21 33 21 22 42 22 31 43 23 23 51 31 31 43 23 30 44 24 23 51 31 30 44 24 29 45 25 23 51 31 29 45 25 28 46 26 23 51 31 28 46 26 27 47 27 23 51 31 27 47 27 26 48 28 23 51 31 26 48 28 25 49 29 23 51 31 25 49 29 24 50 30 23 51 31 22 52 22 23 53 31 32 54 32 23 53 31 24 55 30 32 54 32 24 55 30 25 56 29 32 54 32 25 56 29 26 57 28 32 54 32 26 57 28 27 58 27 32 54 32 27 58 27 28 59 26 32 54 32 28 59 26 29 60 25 32 54 32 29 60 25 30 61 24 32 54 32 30 61 24 31 62 23 32 54 32 31 62 23 22 52 22 32 54 32</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>YAXISShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="ZAxis" name="ZAxis">
+      <mesh>
+        <source id="ZAXISShape-positions" name="ZAXISShape-positions">
+          <float_array id="ZAXISShape-positions-array" count="99">0.01381565 0.01003767 0 0.005277085 0.01624125 0 -0.005276904 0.01624125 0 -0.01381567 0.01003767 0 -0.01707703 0 0 -0.01381566 -0.01003769 0 -0.005276904 -0.01624128 0 0.005277085 -0.01624128 0 0.01381565 -0.01003769 0 0.0170771 0 0 0.01381565 0.01003757 0.8689458 0.005277085 0.01624127 0.8689458 -0.005276904 0.01624127 0.8689458 -0.01381567 0.01003757 0.8689458 -0.01707703 0 0.8689459 -0.01381566 -0.01003761 0.8689459 -0.005276904 -0.01624126 0.8689458 0.005277085 -0.01624126 0.8689458 0.01381565 -0.01003761 0.8689459 0.0170771 0 0.8689459 0 0 0 0 0 0.8689459 0.05464733 0.03970354 0.8541889 0.0208734 0.06424173 0.854189 -0.02087343 0.06424173 0.8541891 -0.05464733 0.03970354 0.8541889 -0.06754779 0 0.8541891 -0.05464733 -0.03970362 0.8541891 -0.02087343 -0.06424181 0.854189 0.02087343 -0.06424181 0.854189 0.05464733 -0.03970362 0.8541891 0.0675478 0 0.8541891 0 0 1.000049</float_array>
+          <technique_common>
+            <accessor source="#ZAXISShape-positions-array" count="33" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ZAXISShape-normals" name="ZAXISShape-normals">
+          <float_array id="ZAXISShape-normals-array" count="189">0.8090166 0.5877858 0 0.3090174 0.9510564 0 0.3090174 0.9510564 0 0.8090166 0.5877858 0 -0.3090119 0.9510581 0 -0.3090119 0.9510581 0 -0.8090158 0.587787 0 -0.8090158 0.587787 0 -1 0 0 -1 0 0 -0.8090153 -0.5877875 0 -0.8090153 -0.5877875 0 -0.3090115 -0.9510583 0 -0.3090115 -0.9510583 0 0.3090166 -0.9510567 0 0.3090166 -0.9510567 0 0.8090163 -0.5877863 0 0.8090163 -0.5877863 0 0.9999999 0 0 0.9999999 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.7341177 0.5333681 0.4202257 0.2804084 0.8630072 0.4202258 0 0 1 -0.2804083 0.8630071 0.420226 -0.7341176 0.533368 0.4202259 -0.9074193 0 0.4202264 -0.7341177 -0.5333675 0.4202265 -0.2804083 -0.8630068 0.4202265 0.2804087 -0.8630068 0.4202264 0.734118 -0.5333672 0.4202263 0.9074193 0 0.4202264</float_array>
+          <technique_common>
+            <accessor source="#ZAXISShape-normals-array" count="63" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ZAXISShape-map1" name="ZAXISShape-map1">
+          <float_array id="ZAXISShape-map1-array" count="66">0.8189747 0.1734834 0.8189747 0.1860012 0.2703045 0.1860012 0.2703045 0.1734832 0.8189747 0.1860012 0.2703045 0.1860012 0.8189747 0.1734834 0.2703045 0.1734832 0.8189747 0.153229 0.2703045 0.153229 0.8189747 0.1329745 0.2703045 0.1329747 0.8189747 0.1204567 0.2703045 0.1204567 0.8189747 0.1204567 0.2703045 0.1204567 0.8189747 0.1329745 0.2703045 0.1329747 0.8189747 0.153229 0.2703045 0.153229 0.8189747 0.153229 0.2703045 0.153229 0.2796224 0.2333443 0.2796223 0.1532289 0.2796223 0.07311345 0.2796224 0.02359933 0.2796224 0.02359933 0.2796223 0.07311345 0.2796223 0.1532289 0.2796224 0.2333443 0.2796223 0.2828584 0.2796224 0.2828584 0.1875234 0.153229</float_array>
+          <technique_common>
+            <accessor source="#ZAXISShape-map1-array" count="33" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ZAXISShape-vertices" name="ZAXISShape-vertices">
+          <input semantic="POSITION" source="#ZAXISShape-positions"/>
+        </vertices>
+        <triangles material="ZAxis" count="58">
+          <input semantic="VERTEX" source="#ZAXISShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ZAXISShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ZAXISShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 10 3 3 10 3 3 1 1 1 11 2 2 1 1 1 2 4 4 11 2 2 11 2 2 2 4 4 12 5 5 2 4 4 3 6 6 12 5 5 12 5 5 3 6 6 13 7 7 3 6 6 4 8 8 13 7 7 13 7 7 4 8 8 14 9 9 4 8 8 5 10 10 14 9 9 14 9 9 5 10 10 15 11 11 5 10 10 6 12 12 15 11 11 15 11 11 6 12 12 16 13 13 6 12 12 7 14 14 16 13 13 16 13 13 7 14 14 17 15 15 7 14 14 8 16 16 17 15 15 17 15 15 8 16 16 18 17 17 8 16 16 9 18 18 18 17 17 18 17 17 9 18 18 19 19 19 9 18 18 0 0 0 19 19 19 19 19 19 0 0 0 10 3 3 1 20 1 0 21 0 20 22 20 2 23 4 1 20 1 20 22 20 3 24 6 2 23 4 20 22 20 4 25 8 3 24 6 20 22 20 5 26 10 4 25 8 20 22 20 6 27 12 5 26 10 20 22 20 7 28 14 6 27 12 20 22 20 8 29 16 7 28 14 20 22 20 9 30 18 8 29 16 20 22 20 0 21 0 9 30 18 20 22 20 10 31 3 11 32 2 21 33 21 11 32 2 12 34 5 21 33 21 12 34 5 13 35 7 21 33 21 13 35 7 14 36 9 21 33 21 14 36 9 15 37 11 21 33 21 15 37 11 16 38 13 21 33 21 16 38 13 17 39 15 21 33 21 17 39 15 18 40 17 21 33 21 18 40 17 19 41 19 21 33 21 19 41 19 10 31 3 21 33 21 22 42 22 31 43 23 23 51 31 31 43 23 30 44 24 23 51 31 30 44 24 29 45 25 23 51 31 29 45 25 28 46 26 23 51 31 28 46 26 27 47 27 23 51 31 27 47 27 26 48 28 23 51 31 26 48 28 25 49 29 23 51 31 25 49 29 24 50 30 23 51 31 22 52 22 23 53 31 32 54 32 23 53 31 24 55 30 32 54 32 24 55 30 25 56 29 32 54 32 25 56 29 26 57 28 32 54 32 26 57 28 27 58 27 32 54 32 27 58 27 28 59 26 32 54 32 28 59 26 29 60 25 32 54 32 29 60 25 30 61 24 32 54 32 30 61 24 31 62 23 32 54 32 31 62 23 22 52 22 32 54 32</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>ZAXISShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="XAxis" name="XAxis">
+      <mesh>
+        <source id="XAXISShape-positions" name="XAXISShape-positions">
+          <float_array id="XAXISShape-positions-array" count="99">0 0.01003808 -0.01381623 0 0.01624197 -0.005277228 0 0.01624197 0.005277295 0 0.01003808 0.01381627 0 0 0.01707776 0 -0.0100381 0.01381627 0 -0.016242 0.005277295 0 -0.016242 -0.005277262 0 -0.0100381 -0.01381622 0 0 -0.01707793 0.8689461 0.0100379 -0.01381623 0.8689461 0.01624194 -0.005277228 0.8689461 0.01624194 0.005277295 0.8689462 0.0100379 0.01381627 0.8689462 0 0.01707776 0.8689462 -0.01003792 0.01381627 0.8689461 -0.01624212 0.005277295 0.8689461 -0.01624212 -0.005277262 0.8689461 -0.01003792 -0.01381622 0.8689461 0 -0.01707793 0 0 0 0.8689461 0 0 0.854189 0.03970354 -0.05464732 0.8541889 0.06424173 -0.0208734 0.854189 0.06424173 0.02087343 0.8541891 0.03970354 0.05464733 0.854189 0 0.0675478 0.854189 -0.03970362 0.05464732 0.854189 -0.06424181 0.02087343 0.8541889 -0.06424181 -0.02087342 0.854189 -0.03970362 -0.05464733 0.854189 0 -0.06754779 1.000049 0 0</float_array>
+          <technique_common>
+            <accessor source="#XAXISShape-positions-array" count="33" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="XAXISShape-normals" name="XAXISShape-normals">
+          <float_array id="XAXISShape-normals-array" count="189">0 0.5877904 -0.8090133 0 0.9510562 -0.3090178 0 0.9510562 -0.3090178 0 0.5877904 -0.8090133 0 0.9510561 0.3090184 0 0.9510561 0.3090184 0 0.587782 0.8090194 0 0.587782 0.8090194 0 0 1 0 0 1 0 -0.5877792 0.8090213 0 -0.5877792 0.8090213 0 -0.951055 0.3090217 0 -0.951055 0.3090217 0 -0.9510549 -0.3090218 0 -0.9510549 -0.3090218 0 -0.5877869 -0.8090158 0 -0.5877869 -0.8090158 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.420226 0.5333682 -0.7341175 0.4202258 0.8630073 -0.2804082 1 0 0 0.4202258 0.8630074 0.2804073 0.4202261 0.5333682 0.7341173 0.4202264 0 0.9074193 0.4202265 -0.5333676 0.7341175 0.4202268 -0.8630068 0.2804077 0.4202266 -0.8630069 -0.2804081 0.4202266 -0.5333676 -0.7341175 0.4202263 0 -0.9074193</float_array>
+          <technique_common>
+            <accessor source="#XAXISShape-normals-array" count="63" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="XAXISShape-map1" name="XAXISShape-map1">
+          <float_array id="XAXISShape-map1-array" count="66">0.3158644 0.6017323 0.2830822 0.6244463 0.2830821 0.624446 0.3158643 0.6017317 0.2425622 0.6244463 0.2425621 0.624446 0.2097801 0.6017323 0.20978 0.6017317 0.1972589 0.5649804 0.1972587 0.5649804 0.2097801 0.5282283 0.20978 0.528229 0.2425622 0.5055144 0.2425621 0.5055139 0.2830825 0.5055144 0.2830822 0.5055139 0.3158644 0.5282283 0.3158642 0.528229 0.3283865 0.5649804 0.3283862 0.5649804 0.2628223 0.5649804 0.2628222 0.5649804 0.4726196 0.7103448 0.5221457 0.5649803 0.4726196 0.4196156 0.3429577 0.3297752 0.1826867 0.3297752 0.05302492 0.4196156 0.003498495 0.5649803 0.05302492 0.7103448 0.1826867 0.8001853 0.3429576 0.8001853 0.2628222 0.5649805</float_array>
+          <technique_common>
+            <accessor source="#XAXISShape-map1-array" count="33" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="XAXISShape-vertices" name="XAXISShape-vertices">
+          <input semantic="POSITION" source="#XAXISShape-positions"/>
+        </vertices>
+        <triangles material="XAxis" count="58">
+          <input semantic="VERTEX" source="#XAXISShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#XAXISShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#XAXISShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 10 3 3 10 3 3 1 1 1 11 2 2 1 1 1 2 4 4 11 2 2 11 2 2 2 4 4 12 5 5 2 4 4 3 6 6 12 5 5 12 5 5 3 6 6 13 7 7 3 6 6 4 8 8 13 7 7 13 7 7 4 8 8 14 9 9 4 8 8 5 10 10 14 9 9 14 9 9 5 10 10 15 11 11 5 10 10 6 12 12 15 11 11 15 11 11 6 12 12 16 13 13 6 12 12 7 14 14 16 13 13 16 13 13 7 14 14 17 15 15 7 14 14 8 16 16 17 15 15 17 15 15 8 16 16 18 17 17 8 16 16 9 18 18 18 17 17 18 17 17 9 18 18 19 19 19 9 18 18 0 0 0 19 19 19 19 19 19 0 0 0 10 3 3 1 20 1 0 21 0 20 22 20 2 23 4 1 20 1 20 22 20 3 24 6 2 23 4 20 22 20 4 25 8 3 24 6 20 22 20 5 26 10 4 25 8 20 22 20 6 27 12 5 26 10 20 22 20 7 28 14 6 27 12 20 22 20 8 29 16 7 28 14 20 22 20 9 30 18 8 29 16 20 22 20 0 21 0 9 30 18 20 22 20 10 31 3 11 32 2 21 33 21 11 32 2 12 34 5 21 33 21 12 34 5 13 35 7 21 33 21 13 35 7 14 36 9 21 33 21 14 36 9 15 37 11 21 33 21 15 37 11 16 38 13 21 33 21 16 38 13 17 39 15 21 33 21 17 39 15 18 40 17 21 33 21 18 40 17 19 41 19 21 33 21 19 41 19 10 31 3 21 33 21 22 42 22 31 43 23 23 51 31 31 43 23 30 44 24 23 51 31 30 44 24 29 45 25 23 51 31 29 45 25 28 46 26 23 51 31 28 46 26 27 47 27 23 51 31 27 47 27 26 48 28 23 51 31 26 48 28 25 49 29 23 51 31 25 49 29 24 50 30 23 51 31 22 52 22 23 53 31 32 54 32 23 53 31 24 55 30 32 54 32 24 55 30 25 56 29 32 54 32 25 56 29 26 57 28 32 54 32 26 57 28 27 58 27 32 54 32 27 58 27 28 59 26 32 54 32 28 59 26 29 60 25 32 54 32 29 60 25 30 61 24 32 54 32 30 61 24 31 62 23 32 54 32 31 62 23 22 52 22 32 54 32</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>XAXIS</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="peikan">
+      <node id="YAXIS" name="YAXIS" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#YAxis">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="YAxis" target="#Y_blin"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>YAXIS</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="ZAXIS" name="ZAXIS" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#ZAxis">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ZAxis" target="#Z_blin"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>ZAXIS</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="XAXIS" name="XAXIS" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#XAxis">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="XAxis" target="#X_blin"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>XAxis</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>
