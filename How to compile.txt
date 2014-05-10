@@ -1,0 +1,32 @@
+Compiling the source code
+
+In this tutorial I’ll explain how to compile the source code of Vanda Engine.
+
+Requirements
+
+In order to compile the code and run the program, you should install the following programs:
+
+    Microsoft Visual Studio 2005
+    OpenAL 1.1 driver
+
+Please download OpenAL driver from GitHub.
+
+Downloading the source code
+
+Download latest source code (Win32-src and Editor-src) of VE from GitHub or Sourceforge.
+
+Compiling
+
+Note: <version> refers to the latest version of VE source code.
+
+In order to compile the source code, you should use Microsoft Visual Studio 2005.  I have used Microsoft Visual Studio 2005 professional edition service pack 1 to compile the code.
+
+Vanda Engine contains 2 projects: Editor-<version>-src refers to the Editor of VE and Win32-<version>-src is responsible for rendering the game in full screen mode. When you make a change in the core of VE, you should apply it to both Editor-<version>-src and Win32-<version>-src projects. when you add a function that refers to the editor of VE (such as UI), you should apply the code to Editor-<version>-src project.
+
+Compiling the editor
+
+Download Editor-<version>-src and open VandaEngine1.sln. Hit F5 to build the code and run the program.
+Compiling Win32
+
+Download Win32-<version>-src and open VandaEngine1Win32.sln. Hit F5 to build the code and run the program.
+- See more at: http://vandaengine.com/compiling-the-source-code/#sthash.Pq5oWkte.dpuf
